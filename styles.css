@@ -1,0 +1,104 @@
+/*# sourceMappingURL=styles.css.map */
+* {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+}
+.btn-primary {
+  border-radius: 5px;
+  background: #43c45f;
+  border-color: #43c45f;
+}
+.btn-primary:hover {
+  border-radius: 5px;
+  background: #43c45f;
+  border-color: #43c45f;
+}
+.navbar {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar .navbar-brand {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #878b9b;
+  font-weight: bold;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.navbar .navbar-brand:hover {
+  color: #43c45f;
+}
+.navbar .navbar-toggler {
+  border-color: transparent;
+  border: none;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #404445;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+}
+@media only screen and(max-width:991px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  color: #43c45f;
+  font-weight: 900;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #43c45f;
+}
+@media only screen and(max-width: 991px) {
+  .navbar .navbar-nav {
+    text-align: center;
+  }
+}
+@media only screen and(min-width:992px) {
+  .navbar .navbar-nav .nav-item:not(:first-child) {
+    margin-left: 37px;
+  }
+}
+
+/*========================================
+Pradinio puslapio stiliai
+========================================*/
+
+/*HEADER STILIAI*/
+
+.home-page header {
+  height: calc(100vh - 80px);
+  background: linear-gradient(rgba(98, 100, 113, 0.5), rgba(98, 100, 113, 0.5)),
+    url("./img/9d99a8d7c366a4c2e2c811425efa2919\ \(3\)\ \(1\).jpeg") top center
+      no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.home-page header .container,
+.home-page header .container .row {
+  height: 100%;
+}
+.home-page header h1 {
+  color: #fff;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 82px;
+  margin-bottom: 0;
+}
+.home-page header p {
+  color: #d5d7d8;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 681px;
+  width: 100%;
+  margin: 33px auto 49px;
+}
