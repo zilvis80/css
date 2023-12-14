@@ -1,0 +1,55 @@
+* {
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+}
+.home-page
+  .general-information
+  .container
+  .row
+  .infomation-block:not(:last-child) {
+  margin-left: 37px;
+}
+.home-page .general-information .container {
+  width: 1920px;
+  height: 6119px;
+}
+.home-page .general-information .container .text h1 {
+  color: #404445;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 127.188%;
+}
+.home-page .general-information .container .row .text p {
+  color: #404445;
+  width: 672px;
+  height: 153px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.188%; /* 50.875px */
+}
+.home-page .general-information .container .row .text h1 {
+  padding: 112px 0 28px;
+}
+.home-page .general-information .container .row .information-block img {
+  width: 41px;
+  height: 40px;
+}
+.home-page .general-information .container .row .information-block h3 {
+  color: #404445;
+
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 26px;
+  line-height: 127.188%;
+}
+.home-page .general-information .container .row .information-block p {
+  color: #5f6b81;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 127.188%;
+}
